@@ -400,103 +400,107 @@
         <footer>
             <div class="substrate-black">
                 <div class="container">
-                    <div class="row footer__mainrow">
-                        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                            <h2 class="title_footer_level_2">Unicorn</h2>
-                            <p class="text_footer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his</p>
-                            <form class="footer__form">
-                                <div class="col-lg-6">
-                                    <input class="footer__form-text" type="email" id="email" placeholder="email" name="email" />
-                                </div>
-                                <div class="col-lg-6">
-                                    <input class="footer__form-text" type="email" id="subject" placeholder="subject" name="subject" />
-                                </div>
-                                <div class="col-lg-12">
-                                    <input class="footer__form-text" type="email" id="message" placeholder="message" name="message" />
-                                </div>
-                                <div class="col-lg-12 col-md-12 footer__form-submit_wrapper">
-                                    <input class="footer__form-text footer__form-submit" type="submit" value="SEND" />
-                                </div>
-                            </form>
+                    <form class="footer__form"> <!--Форма сделана такой вложенностью для того, чтобы сделать sumbit кнопку с длинной линией подчёркивания-->
+                        <div class="row">
+                        
+                            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                                <h2 class="title_footer_level_2">Unicorn</h2>
+                                <p class="text_footer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his</p>
+
+                                    <div class="col-lg-6">
+                                        <input class="footer__form-text" type="email" id="email" placeholder="email" name="email" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input class="footer__form-text" type="email" id="subject" placeholder="subject" name="subject" />
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <input class="footer__form-text" type="email" id="message" placeholder="message" name="message" />
+                                    </div>
+                            </div>
+                            <div class="col-lg-6 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
+                                <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer__nav-column">
+                                    <h2 class="title_footer_level_3">Links</h2>
+                                    <ul class="footer__nav-column_list">
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Menu</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Restaurants</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Work Hours</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Call Hours</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <p class="title_footer_level_3">Friends</p>
+                                    <ul class="footer__nav-column_list">
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Menu</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Restaurants</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <p class="title_footer_level_3">Social</p>
+                                    <ul class="footer__nav-column_list">
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Facebook</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Twitter</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Github</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Pinterest</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Google Plus</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Dribbble</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Flickr</a>
+                                        </li>
+                                        <li>
+                                            <a class="footer__nav-column_links" href="#">Others</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
-                            <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer__nav-column">
-                                <h2 class="title_footer_level_3">Links</h2>
-                                <ul class="footer__nav-column_list">
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Home</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">About</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Menu</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Restaurants</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Work Hours</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Call Hours</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                <p class="title_footer_level_3">Friends</p>
-                                <ul class="footer__nav-column_list">
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Home</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">About</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Menu</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Restaurants</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                <p class="title_footer_level_3">Social</p>
-                                <ul class="footer__nav-column_list">
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Github</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Pinterest</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Google Plus</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Dribbble</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Flickr</a>
-                                    </li>
-                                    <li>
-                                        <a class="footer__nav-column_links" href="#">Others</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <div class="row footer__form-submit_row">
+                            <div class="col-lg-12 col-md-12">
+                                <input class="footer__form-text footer__form-submit" type="submit" value="SEND" />
+                            </div>
                         </div>
-                    </div>
+                    </form>
                     <div class="row">
                         <div class="col-lg-5 col-md-6">
                                 <p class="text_footer">One morning, when Gregor Samsa woke from troubled dreams, he found 2015 Your Awesome Company</p>
